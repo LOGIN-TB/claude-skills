@@ -1,11 +1,13 @@
 ---
 name: vermenschlichen
-description: "Schreibregeln für natürliche, sachliche deutsche Texte, die typische KI-Verräter vermeiden. Immer anwenden, wenn auf Deutsch geschrieben wird – ob Chat-Antwort, Bericht, Artikel, E-Mail, Zusammenfassung, Dokument oder Social-Media-Post. Auch dann nutzen, wenn nicht ausdrücklich nach Stil oder Schreibregeln gefragt wird, und immer dann, wenn jemand einen Text vermenschlichen, entkünsteln oder weniger nach KI klingen lassen will. Ziel ist, dass kein deutscher Text die Muster aufweist, an denen man KI-generierte Inhalte erkennt (aufgeblähte Bedeutung, Werbesprache, Floskeln, Gedankenstrich-Häufung, Überstrukturierung, Fazit- und Herausforderungen-Abschnitte, erfundene Belege, technische Artefakte, Dialogreste). Grundlage ist die Wikipedia-Seite Anzeichen für KI-generierte Inhalte."
+description: "Schreibregeln für natürliche, sachliche deutsche Texte, die typische KI-Verräter vermeiden. Immer anwenden, wenn auf Deutsch geschrieben wird – ob Chat-Antwort, Bericht, Artikel, E-Mail, Zusammenfassung, Dokument oder Social-Media-Post. Auch dann nutzen, wenn nicht ausdrücklich nach Stil oder Schreibregeln gefragt wird, und immer dann, wenn jemand einen Text vermenschlichen, entkünsteln oder weniger nach KI klingen lassen will. Ziel ist, dass kein deutscher Text die Muster aufweist, an denen man KI-generierte Inhalte erkennt (aufgeblähte Bedeutung, Werbesprache, Floskeln, Gedankenstrich-Häufung, Überstrukturierung, Fazit- und Herausforderungen-Abschnitte, erfundene Belege, technische Artefakte, Dialogreste). Grundlage sind die Wikipedia-Seiten Anzeichen für KI-generierte Inhalte (deutsch) und Signs of AI writing (englisch)."
 ---
 
 # Vermenschlichen: deutscher Schreibstil ohne KI-Muster
 
 Diese Regeln sorgen dafür, dass deutsche Texte natürlich, sachlich und vertrauenswürdig wirken – und nicht die Merkmale zeigen, an denen Leser (und Wikipedia) KI-generierte Inhalte erkennen. Der Leitgedanke der deutschen Wikipedia gilt als Maßstab: nüchtern, zurückhaltend, belegt.
+
+Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (deutsch) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (englisch). Die englische Seite ist ausführlicher; ihre Beobachtungen sind hier auf das Deutsche übertragen.
 
 Die Regeln sind keine Verbote einzelner Wörter, sondern Hinweise auf wiederkehrende Muster. Jedes Muster hat einen Grund. Wer den Grund versteht, kann im Zweifel selbst entscheiden. Kein einzelnes Merkmal beweist maschinelle Herkunft – verdächtig ist die Häufung. Umgekehrt gilt: Ein Text wird nicht dadurch gut, dass er alle Verräter vermeidet; er braucht auch Substanz (konkrete Fakten, echte Beispiele, prüfbare Quellen).
 
@@ -21,6 +23,8 @@ Erfinde niemals Quellen, Titel, Autoren, Jahreszahlen, Links, ISBNs oder DOIs. D
 
 Gib nur Quellen an, deren Existenz sich prüfen lässt, und belege damit nur Aussagen, die tatsächlich darin stehen. Wenn eine Angabe unsicher ist, kennzeichne sie als unsicher oder lass sie weg – lieber eine Lücke als eine erfundene Sicherheit.
 
+Ein zweites, subtileres Muster: Der Beleg existiert, trägt die Aussage aber nicht. Dazu gehören eine gültige DOI, die zu einem ganz anderen Aufsatz führt, ein real existierendes Buch zu einem verwandten, aber nicht passenden Thema, ein Buchbeleg ohne Seitenzahl, ein Link auf eine Suchergebnisseite statt auf das Dokument und ein Beleg, der im Quellenverzeichnis steht, aber an keiner Aussage hängt. Prüfe deshalb nicht nur, ob eine Quelle existiert, sondern ob sie genau das sagt, was du ihr zuschreibst.
+
 Behandle eine unbelegte Behauptung als möglichen Fehler, nicht als Tatsache. Formuliere im Zweifel vorsichtig statt selbstbewusst falsch.
 
 ## Sprache und Ton
@@ -32,6 +36,8 @@ Meide Werbesprache. Wendungen wie „reiches kulturelles Erbe", „atemberaubend
 Meide redaktionelle Kommentare, mit denen sich der Text selbst bewertet: „es ist wichtig zu beachten", „es ist bemerkenswert, dass", „erwähnenswert ist", „keine Betrachtung wäre vollständig ohne". Wenn etwas wichtig ist, zeigt sich das am Inhalt, nicht an der Ankündigung.
 
 Trag keine Meinung oder Interpretation als Fakt ein. Wenn eine Einschätzung nötig ist, schreib zu, wer sie vertritt.
+
+Belege Bekanntheit nicht durch Behauptung. KI-Texte führen gern vor, dass ein Thema wichtig sei, indem sie die Medienberichterstattung selbst zum Inhalt machen: „wurde in überregionalen Medien besprochen", „fand Beachtung in der Fachpresse", „unterhält eine aktive Präsenz in sozialen Medien". Auch das Aufzählen der Quellengattung („unabhängige Berichterstattung", „regionale Medien") gehört dazu. Schreib, was passiert ist, und setz den Beleg als Beleg – nicht als Argument in den Fließtext.
 
 Meide vage Autoritäten und Weasel-Wording: „Beobachter meinen", „Kritiker argumentieren", „Branchenberichte zeigen", „es wird oft gesagt", „Studien zeigen". Nenne konkret, wer etwas sagt, oder lass die Behauptung weg. Übertrage nicht die Sicht einer einzelnen Quelle auf eine große, unbestimmte Gruppe.
 
@@ -45,7 +51,9 @@ Setze Verbindungswörter sparsam und natürlich ein. „Darüber hinaus", „zus
 
 Meide den formelhaften negativen Parallelismus: „nicht nur …, sondern auch …", „es geht nicht nur um …, sondern", „es ist kein …, sondern ein …" – und die umgekehrte Form „X statt Y" als Dauerfigur. Solche Konstruktionen wirken argumentativ und werblich statt sachlich.
 
-Scheue schlichte Kopula-Sätze nicht. KI-Texte weichen „ist/sind/hat" systematisch aus: „dient als", „fungiert als", „stellt dar", „markiert", „bietet", „verfügt über", „bezeichnet" (in Definitionen). „Das Gebäude ist das Ausstellungshaus" ist besser als „Das Gebäude fungiert als Ausstellungshaus".
+Scheue schlichte Kopula-Sätze nicht. KI-Texte weichen „ist/sind/hat" systematisch aus: „dient als", „fungiert als", „stellt dar", „markiert", „bietet", „verfügt über", „bezeichnet" (in Definitionen). „Das Gebäude ist das Ausstellungshaus" ist besser als „Das Gebäude fungiert als Ausstellungshaus". Dasselbe gilt für „es gibt", „es hat" und andere einfache Konstruktionen, um die KI-Texte einen Bogen machen.
+
+Nimm das schlichte Verb, nicht das steife Synonym. KI greift systematisch zur gehobenen Variante: „verfasste" statt „schrieb", „verstarb" statt „starb", „siedelte über" statt „zog um", „bediente sich" statt „nutzte", „erachtete" statt „hielt für", „leistete Unterstützung" statt „half". Umgekehrt ist das schlichte Wort ein Merkmal menschlicher Texte.
 
 Erzwinge keine Synonym-Rotation. KI vermeidet Wortwiederholungen um jeden Preis und greift zu immer neuen Ersatzwörtern („die Stadt … die Metropole … der urbane Raum"). Ein natürlicher Text darf dasselbe Wort wiederholen, wenn es das richtige ist.
 
@@ -54,6 +62,8 @@ Meide das rhetorische Dreierschema (Trikolon): drei aufgereihte Adjektive oder K
 Meide gehäufte Partizip-I-Konstruktionen als angehängte Deutungen: „…, wodurch die Bedeutung unterstrichen wird", „…, was seine Rolle hervorhebt", „gewährleistend", „widerspiegelnd". Diese Wendungen schieben oft eine leere Bewertung nach. Schreib lieber einen eigenen Satz oder lass die Deutung weg.
 
 Meide unechte Aufzählungsspannen mit „von … bis", wenn sie nur Beispiele aneinanderreihen und dabei enzyklopädisch-werblich klingen.
+
+Streich nicht heraus, was menschliche Texte ausmacht. KI vermeidet von sich aus einige Konstruktionen, die in deutschen Gebrauchstexten völlig normal sind: abschwächende Wörter („vielleicht", „eher", „ziemlich", „sehr", „meist"), klare Superlative und eindeutige Aussagen („der erste", „der einzige", „einer der größten") und die etwas umständliche, aber geläufige Wendung („um … zu", „infolge", „die Tatsache, dass"). Wenn so etwas zutrifft und passt, lass es stehen. Ein Text wird nicht menschlicher, indem man ihn glatt schleift.
 
 ## Struktur
 
@@ -74,6 +84,8 @@ Nutze Aufzählungen nur, wenn der Inhalt wirklich eine Liste ist. Fließende Zus
 Meide das Schema „Aufzählungspunkt + fettes Schlagwort + Doppelpunkt + Erklärung" („**Flexibilität:** Das System erlaubt …"). Diese Inline-Header-Listen sind eines der auffälligsten KI-Formatmuster. Ebenso: keine Mini-Tabellen für Inhalte, die in einen Satz passen.
 
 Halte die Überschriften-Hierarchie ein und überspringe keine Ebenen.
+
+Schreib Überschriften deutsch, nicht nach englischem Muster. „Die Wichtigsten Vorteile Im Überblick" verrät eine aus dem Englischen übernommene Titel-Großschreibung. Im Deutschen wird in Überschriften normal groß- und kleingeschrieben.
 
 Setze keine Emojis vor Überschriften oder Aufzählungspunkte und generell keine Emojis in sachlichen Texten, sofern nicht ausdrücklich gewünscht.
 
@@ -101,18 +113,31 @@ Keine Hinweise auf den eigenen Wissensstand oder Trainingsschluss: „Stand mein
 
 Lass keinen Platzhaltertext stehen („[Name einfügen]", „hier Details ergänzen").
 
+## Was kein Verräter ist
+
+Genauso wichtig wie die Muster oben ist, welche Merkmale nichts beweisen. Wer sie zu vermeiden versucht, verschlechtert den Text, ohne ihn menschlicher zu machen:
+
+- Fehlerfreie Rechtschreibung und Grammatik. Viele Menschen schreiben sauber; Fehler einzubauen macht einen Text nicht echter.
+- Ein förmlicher, akademischer oder nüchterner Ton. Nur bestimmte Wörter sind KI-typisch, nicht gehobene Sprache an sich.
+- Ein einzelnes Verbindungswort. Erst die mechanische Häufung ist auffällig.
+- Der Wechsel zwischen sachlichem und lockerem Register in einem Text.
+- Fehlende Quellenangaben. Das ist ein inhaltliches Problem, aber kein Hinweis auf maschinelle Herkunft.
+
+Und der Umkehrschluss gilt ohnehin nicht: Ein Text ohne diese Muster kann trotzdem von einer Maschine stammen, ein Text mit einigen davon von einem Menschen.
+
 ## Kurz-Selbstcheck vor dem Absenden
 
 Prüfe den Text vor der Ausgabe kurz gegen diese Fragen:
 
-- Sind alle genannten Quellen und Fakten echt und prüfbar?
+- Sind alle genannten Quellen und Fakten echt und prüfbar – und stützt jede Quelle wirklich die Aussage, an der sie hängt?
 - Steht irgendwo Werbe- oder Bedeutungssprache, die man streichen kann?
 - Gibt es einen „Fazit"- oder „Herausforderungen"-Baustein oder eine schließende Wiederholung?
 - Beginnen Absätze mechanisch mit „Darüber hinaus", „Zusätzlich" usw.?
 - Häufen sich Gedankenstriche, wo Komma oder Doppelpunkt reichen?
-- Weicht der Text schlichtem „ist/hat" aus („dient als", „fungiert als") oder rotiert er zwanghaft Synonyme?
+- Weicht der Text schlichtem „ist/hat" aus („dient als", „fungiert als"), greift er zum steifen Synonym („verfasste", „verstarb") oder rotiert er zwanghaft Synonyme?
+- Behauptet der Text Bedeutung über Medienpräsenz statt über Inhalt?
 - Ist zu viel fett, zu viel gegliedert, zu viel Liste?
 - Stecken technische Artefakte im Text (Markdown-Reste, Chatbot-Zitierreste, gemischte Anführungszeichen)?
 - Steckt ein Dialog- oder Meta-Rest im Text?
 
-Wenn eine Antwort „ja" (bzw. bei der ersten Frage „nein") lautet: überarbeiten.
+Wenn eine Antwort „ja" (bzw. bei der ersten Frage „nein") lautet: überarbeiten. Aber überarbeite gezielt – nicht jeder förmliche Satz und nicht jedes „vielleicht" ist ein Fehler, siehe „Was kein Verräter ist".

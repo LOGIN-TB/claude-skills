@@ -10,7 +10,9 @@ Schreibregeln für deutsche Texte, die nicht nach KI klingen. Der Skill greift b
 
 Er unterbindet die Muster, an denen sich maschinell erzeugte Texte erkennen lassen: aufgeblähte Bedeutungszuschreibung, Werbesprache, vage Autoritäten („Studien zeigen"), gehäufte Gedankenstriche, mechanische Verbindungswörter, das Schema „nicht nur …, sondern auch", ausweichende Verben statt „ist/hat", erzwungene Synonym-Rotation, Fazit- und Herausforderungen-Bausteine, Inline-Header-Listen mit fetten Schlagwörtern, Chatbot-Zitierreste und Meta-Sätze über den eigenen Entwurf. Am Ende steht ein Selbstcheck, den Claude vor der Ausgabe durchgeht.
 
-Grundlage ist die Wikipedia-Seite [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:WikiProjekt_KI_und_Wikipedia/Anzeichen_f%C3%BCr_KI-generierte_Inhalte).
+Dazu kommt, was oft übersehen wird: ein Abschnitt darüber, welche Merkmale gerade *kein* Hinweis auf KI sind (fehlerfreie Grammatik, förmlicher Ton, ein einzelnes Verbindungswort). Er verhindert, dass Texte beim Überarbeiten künstlich verschlechtert werden.
+
+Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (deutsch) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (englisch).
 
 → [`skills/vermenschlichen/SKILL.md`](skills/vermenschlichen/SKILL.md)
 
