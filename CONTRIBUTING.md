@@ -17,7 +17,7 @@ description: Was der Skill tut und wann er verwendet werden soll.
 ---
 ```
 
-Die `description` ist der Auslöser: Claude liest nur sie, um zu entscheiden, ob der Skill geladen wird. Sie sollte beides nennen — die Aufgabe und die Situation, in der der Skill greift. Der Text darunter wird erst dann geladen und kann entsprechend ausführlich sein.
+Der `name` ist zugleich der Slash-Befehl (`/mein-skill`). Die `description` ist der Auslöser für den automatischen Aufruf: Claude liest nur sie, um zu entscheiden, ob der Skill geladen wird. Sie sollte beides nennen — die Aufgabe und die Situation, in der der Skill greift. Der Text darunter wird erst dann geladen und kann entsprechend ausführlich sein.
 
 Ergänzende Dateien (Referenzen, Skripte, Vorlagen) liegen im selben Ordner und werden aus der `SKILL.md` heraus mit relativem Pfad angesprochen.
 

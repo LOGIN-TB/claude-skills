@@ -4,15 +4,15 @@ Agent Skills zur freien Nutzung. Ein Skill ist eine Markdown-Datei mit Anweisung
 
 ## Enthaltene Skills
 
-### deutscher-schreibstil-ohne-ki-muster
+### vermenschlichen
 
-Schreibregeln für deutsche Texte, die nicht nach KI klingen. Der Skill greift bei allem, was auf Deutsch geschrieben wird: Chat-Antworten, Berichte, Artikel, E-Mails, Zusammenfassungen, Social-Media-Posts.
+Schreibregeln für deutsche Texte, die nicht nach KI klingen. Der Skill greift bei allem, was auf Deutsch geschrieben wird: Chat-Antworten, Berichte, Artikel, E-Mails, Zusammenfassungen, Social-Media-Posts. Direkt aufrufen kannst du ihn mit `/vermenschlichen`, etwa um einen vorhandenen Text zu überarbeiten.
 
 Er unterbindet die Muster, an denen sich maschinell erzeugte Texte erkennen lassen: aufgeblähte Bedeutungszuschreibung, Werbesprache, vage Autoritäten („Studien zeigen"), gehäufte Gedankenstriche, mechanische Verbindungswörter, das Schema „nicht nur …, sondern auch", ausweichende Verben statt „ist/hat", erzwungene Synonym-Rotation, Fazit- und Herausforderungen-Bausteine, Inline-Header-Listen mit fetten Schlagwörtern, Chatbot-Zitierreste und Meta-Sätze über den eigenen Entwurf. Am Ende steht ein Selbstcheck, den Claude vor der Ausgabe durchgeht.
 
 Grundlage ist die Wikipedia-Seite [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:WikiProjekt_KI_und_Wikipedia/Anzeichen_f%C3%BCr_KI-generierte_Inhalte).
 
-→ [`skills/deutscher-schreibstil-ohne-ki-muster/SKILL.md`](skills/deutscher-schreibstil-ohne-ki-muster/SKILL.md)
+→ [`skills/vermenschlichen/SKILL.md`](skills/vermenschlichen/SKILL.md)
 
 ## Installation
 
@@ -22,7 +22,7 @@ Das Repo als Plugin-Marketplace registrieren und das Plugin installieren:
 
 ```
 /plugin marketplace add LOGIN-TB/claude-skills
-/plugin install deutscher-schreibstil@login-skills
+/plugin install vermenschlichen@login-skills
 ```
 
 Updates holst du dir mit `/plugin marketplace update login-skills`.
@@ -33,7 +33,7 @@ Skill-Ordner direkt kopieren, wahlweise persönlich oder pro Projekt:
 
 ```bash
 git clone https://github.com/LOGIN-TB/claude-skills.git
-cp -r claude-skills/skills/deutscher-schreibstil-ohne-ki-muster ~/.claude/skills/
+cp -r claude-skills/skills/vermenschlichen ~/.claude/skills/
 ```
 
 `~/.claude/skills/` gilt für alle Projekte, `.claude/skills/` im Projektordner nur dort und lässt sich mit dem Team versionieren.
@@ -44,7 +44,7 @@ Custom Skills werden als ZIP hochgeladen. Der Ordnername im Archiv muss dem Skil
 
 ```bash
 cd skills
-zip -r deutscher-schreibstil-ohne-ki-muster.zip deutscher-schreibstil-ohne-ki-muster
+zip -r vermenschlichen.zip vermenschlichen
 ```
 
 Danach unter [claude.ai/customize/skills](https://claude.ai/customize/skills) auf „+" → „Create skill" → „Upload a skill" und die ZIP-Datei auswählen. Hochgeladene Skills sind privat für den eigenen Account. Team- und Enterprise-Organisationen verteilen sie über die Organisationseinstellungen.
@@ -64,7 +64,7 @@ SKILL.md ist ein offenes Format aus Markdown mit YAML-Frontmatter. Agenten ohne 
 skills/<skill-name>/SKILL.md      ein Ordner je Skill, Ordnername = Feld "name"
 ```
 
-Jede SKILL.md beginnt mit einem Frontmatter-Block aus `name` und `description`. Die Beschreibung entscheidet darüber, ob Claude den Skill im richtigen Moment lädt, und sollte deshalb benennen, was der Skill tut und wann er greifen soll.
+Jede SKILL.md beginnt mit einem Frontmatter-Block aus `name` und `description`. Der Name ist zugleich der Slash-Befehl, unter dem sich der Skill direkt aufrufen lässt. Die Beschreibung entscheidet darüber, ob Claude den Skill von sich aus im richtigen Moment lädt, und sollte deshalb benennen, was der Skill tut und wann er greifen soll.
 
 ```yaml
 ---

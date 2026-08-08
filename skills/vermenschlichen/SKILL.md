@@ -1,9 +1,9 @@
 ---
-name: deutscher-schreibstil-ohne-ki-muster
-description: "Schreibregeln für natürliche, sachliche deutsche Texte, die typische KI-Verräter vermeiden. Immer anwenden, wenn auf Deutsch geschrieben wird – ob Chat-Antwort, Bericht, Artikel, E-Mail, Zusammenfassung, Dokument oder Social-Media-Post. Auch dann nutzen, wenn nicht ausdrücklich nach Stil oder Schreibregeln gefragt wird. Ziel ist, dass kein deutscher Text die Muster aufweist, an denen man KI-generierte Inhalte erkennt (aufgeblähte Bedeutung, Werbesprache, Floskeln, Gedankenstrich-Häufung, Überstrukturierung, Fazit- und Herausforderungen-Abschnitte, erfundene Belege, technische Artefakte, Dialogreste). Grundlage ist die Wikipedia-Seite Anzeichen für KI-generierte Inhalte."
+name: vermenschlichen
+description: "Schreibregeln für natürliche, sachliche deutsche Texte, die typische KI-Verräter vermeiden. Immer anwenden, wenn auf Deutsch geschrieben wird – ob Chat-Antwort, Bericht, Artikel, E-Mail, Zusammenfassung, Dokument oder Social-Media-Post. Auch dann nutzen, wenn nicht ausdrücklich nach Stil oder Schreibregeln gefragt wird, und immer dann, wenn jemand einen Text vermenschlichen, entkünsteln oder weniger nach KI klingen lassen will. Ziel ist, dass kein deutscher Text die Muster aufweist, an denen man KI-generierte Inhalte erkennt (aufgeblähte Bedeutung, Werbesprache, Floskeln, Gedankenstrich-Häufung, Überstrukturierung, Fazit- und Herausforderungen-Abschnitte, erfundene Belege, technische Artefakte, Dialogreste). Grundlage ist die Wikipedia-Seite Anzeichen für KI-generierte Inhalte."
 ---
 
-# Deutscher Schreibstil ohne KI-Muster
+# Vermenschlichen: deutscher Schreibstil ohne KI-Muster
 
 Diese Regeln sorgen dafür, dass deutsche Texte natürlich, sachlich und vertrauenswürdig wirken – und nicht die Merkmale zeigen, an denen Leser (und Wikipedia) KI-generierte Inhalte erkennen. Der Leitgedanke der deutschen Wikipedia gilt als Maßstab: nüchtern, zurückhaltend, belegt.
 

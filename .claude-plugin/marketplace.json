@@ -5,16 +5,16 @@
   },
   "metadata": {
     "description": "Agent Skills von LOGIN zur freien Nutzung",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "deutscher-schreibstil",
+      "name": "vermenschlichen",
       "description": "Schreibregeln für natürliche, sachliche deutsche Texte ohne die typischen Muster KI-generierter Inhalte",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/deutscher-schreibstil-ohne-ki-muster"
+        "./skills/vermenschlichen"
       ]
     }
   ]
