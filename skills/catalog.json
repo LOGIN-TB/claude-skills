@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "ai-seo",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "seo-audit",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "product-marketing",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "social",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "cold-email",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "competitors",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "competitor-profiling",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "content-strategy",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "copywriting",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "customer-research",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "image",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "lead-magnets",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    },
+    {
+      "name": "marketing-ideas",
+      "kind": "curated-document",
+      "language": "de",
+      "origin": "coreyhaines31/marketingskills",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "author": "Corey Haines; DACH-Adaption LOGIN"
+    }
+  ]
+}

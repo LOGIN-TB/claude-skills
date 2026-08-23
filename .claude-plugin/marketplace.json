@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Agent Skills von LOGIN zur freien Nutzung",
-    "version": "1.2.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
@@ -15,6 +15,144 @@
       "strict": false,
       "skills": [
         "./skills/vermenschlichen"
+      ]
+    },
+    {
+      "name": "marketing-dach",
+      "description": "Alle 13 deutschen DACH-Marketing-Skills gebündelt: SEO, Content, Copy, Social, Wettbewerb, Kundenforschung, Bilder, Lead-Magneten, Outreach. Entweder dieses Bündel oder einzelne Skills installieren, nicht beides.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-seo",
+        "./skills/seo-audit",
+        "./skills/product-marketing",
+        "./skills/social",
+        "./skills/cold-email",
+        "./skills/competitors",
+        "./skills/competitor-profiling",
+        "./skills/content-strategy",
+        "./skills/copywriting",
+        "./skills/customer-research",
+        "./skills/image",
+        "./skills/lead-magnets",
+        "./skills/marketing-ideas"
+      ]
+    },
+    {
+      "name": "ai-seo",
+      "description": "Sichtbarkeit und Zitierung in KI-Antwortsystemen evidenzbasiert prüfen und verbessern (DACH)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-seo"
+      ]
+    },
+    {
+      "name": "seo-audit",
+      "description": "Technische, inhaltliche und internationale SEO-Probleme prüfen und priorisieren (DACH)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/seo-audit"
+      ]
+    },
+    {
+      "name": "product-marketing",
+      "description": "Belegten Produktmarketing-Kontext für Positionierung, Zielgruppen und Botschaften pflegen",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/product-marketing"
+      ]
+    },
+    {
+      "name": "social",
+      "description": "Organische Social-Media-Inhalte planen, verfassen, wiederverwenden und prüfen (DACH)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/social"
+      ]
+    },
+    {
+      "name": "cold-email",
+      "description": "B2B-Outreach-E-Mails konservativ entwerfen und auf § 7 UWG prüfen — nur Entwürfe",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/cold-email"
+      ]
+    },
+    {
+      "name": "competitors",
+      "description": "Belegte, objektive Wettbewerbsvergleiche und Alternativseiten erstellen (§ 6 UWG)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/competitors"
+      ]
+    },
+    {
+      "name": "competitor-profiling",
+      "description": "Quellenbasierte Profile einzelner Wettbewerber aus öffentlichen Informationen",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/competitor-profiling"
+      ]
+    },
+    {
+      "name": "content-strategy",
+      "description": "Evidenzbasiertes Content-Portfolio mit Themenfeldern, Backlog und Governance planen",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/content-strategy"
+      ]
+    },
+    {
+      "name": "copywriting",
+      "description": "Klare, überprüfbare Website-Texte entwerfen und überarbeiten (DACH)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/copywriting"
+      ]
+    },
+    {
+      "name": "customer-research",
+      "description": "Kundenforschung datensparsam und einwilligungsorientiert planen und auswerten",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/customer-research"
+      ]
+    },
+    {
+      "name": "image",
+      "description": "Marketingbilder rechtebewusst planen, erzeugen, bearbeiten und prüfen (DACH)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/image"
+      ]
+    },
+    {
+      "name": "lead-magnets",
+      "description": "Lead-Magneten und Erfassungsstrecken einwilligungsbasiert planen und prüfen",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/lead-magnets"
+      ]
+    },
+    {
+      "name": "marketing-ideas",
+      "description": "Marketinghypothesen entwickeln, vorprüfen und als messbare Experimente priorisieren",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/marketing-ideas"
       ]
     }
   ]

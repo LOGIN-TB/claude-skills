@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "ai-seo",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/ai-seo/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.2.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Arbeits- und Ausgabeformate, DACH-Kontext, konservative Aussagen zu KI-Suche und klare Aktionsgrenzen.",
+      "legal_review_domains": [
+        "Suchmaschinenrichtlinien",
+        "Datenschutz",
+        "Publikationspflichten"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "seo-audit",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/seo-audit/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutscher Auditablauf mit DACH-, Tracking-, Consent-, Barrierefreiheits- und Publikationsprüfpunkten ohne Rechtsgarantie.",
+      "legal_review_domains": [
+        "DSGVO",
+        "TDDDG",
+        "Barrierefreiheit",
+        "Publikationspflichten"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "product-marketing",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/product-marketing/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.1.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Produktmarketing-Grundlage mit Markt-, Sprach-, Preis-, Beleg-, Rechte- und Freigabefeldern.",
+      "legal_review_domains": [
+        "Preisangaben",
+        "Werbeaussagen",
+        "Marken- und Referenzrechte"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "social",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/social/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.2.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Social-Workflows mit Kennzeichnungs-, Rechte-, Datenschutz-, Plattform- und Veröffentlichungsgrenzen.",
+      "legal_review_domains": [
+        "Werbekennzeichnung",
+        "Plattformregeln",
+        "Datenschutz",
+        "Urheberrecht"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "cold-email",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/cold-email/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Konservativer deutscher Entwurfsworkflow mit § 7 UWG, getrennter Datenschutzprüfung, Sperrlisten und Sendesperre.",
+      "legal_review_domains": [
+        "§ 7 UWG",
+        "DSGVO",
+        "Direktmarketing",
+        "Bestandskundenausnahme"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "competitors",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/competitors/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.1.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche, symmetrische Wettbewerbsvergleiche mit Quellenledger, Preisstichtag und § 6-UWG-Prüfgrenze.",
+      "legal_review_domains": [
+        "§ 6 UWG",
+        "Markenrecht",
+        "vergleichende Werbung"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "competitor-profiling",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/competitor-profiling/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.1.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Quellengebundene deutsche Wettbewerberprofile mit klarer Trennung von Tatsachen, Anbieterangaben, Schätzungen und Hypothesen.",
+      "legal_review_domains": [
+        "Datenschutz",
+        "Datenbankrechte",
+        "Urheberrecht",
+        "Geschäftsgeheimnisse"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "content-strategy",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/content-strategy/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.1.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Content-Strategie mit Zielmarkt, Buying Center, Belegklassen, Governance und Schutz vor dünnen Massenseiten.",
+      "legal_review_domains": [
+        "Datenschutz",
+        "Urheberrecht",
+        "Werbeaussagen",
+        "regulierte Inhalte"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "copywriting",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/copywriting/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.1",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Natürliches deutsches Copywriting mit Sie/Du-, B2B/B2C-, Beleg-, Preis-, Rechte- und Freigaberegeln.",
+      "legal_review_domains": [
+        "UWG",
+        "Preisangaben",
+        "Verbraucherschutz",
+        "Referenzrechte"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "customer-research",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/customer-research/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.1",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Kundenforschung mit Zweck, Einwilligung, Datenminimierung, Aufzeichnung, Aufbewahrung und evidenztreuer Synthese.",
+      "legal_review_domains": [
+        "DSGVO",
+        "BDSG",
+        "Beschäftigtendaten",
+        "Einwilligung",
+        "Aufzeichnung"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "image",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/image/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.1",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Bildbriefings und Prüfabläufe mit Provenienz, Persönlichkeits-, Marken-, Urheber- und Barrierefreiheitsgrenzen.",
+      "legal_review_domains": [
+        "Urheberrecht",
+        "Persönlichkeitsrecht",
+        "Markenrecht",
+        "Kennzeichnung"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "lead-magnets",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/lead-magnets/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche Lead-Magnet-Planung mit minimalen Formularen, getrennter Marketingeinwilligung, DOI-Grenzen und sicherer Bereitstellung.",
+      "legal_review_domains": [
+        "DSGVO",
+        "TDDDG",
+        "UWG",
+        "Einwilligung",
+        "Auftragsverarbeitung"
+      ],
+      "last_reviewed": "2026-08-13"
+    },
+    {
+      "name": "marketing-ideas",
+      "upstream_repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/marketing-ideas/SKILL.md",
+      "upstream_commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "local_version": "2.0.0",
+      "content_language": "de",
+      "default_market": "DE",
+      "change_categories": [
+        "übersetzt",
+        "umstrukturiert",
+        "DACH ergänzt",
+        "Aktionsgrenzen ergänzt",
+        "Sicherheit ergänzt"
+      ],
+      "change_summary": "Deutsche, evidenzbewusste Marketingexperimente mit Risiko-, Rechts-, Plattform-, Budget- und Stopkriterien.",
+      "legal_review_domains": [
+        "UWG",
+        "Datenschutz",
+        "Gewinnspiele",
+        "Preiswerbung",
+        "Werbekennzeichnung"
+      ],
+      "last_reviewed": "2026-08-13"
+    }
+  ]
+}

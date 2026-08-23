@@ -21,7 +21,32 @@ Der `name` ist zugleich der Slash-Befehl (`/mein-skill`). Die `description` ist 
 
 Ergänzende Dateien (Referenzen, Skripte, Vorlagen) liegen im selben Ordner und werden aus der `SKILL.md` heraus mit relativem Pfad angesprochen.
 
+Optional, aber im Repo üblich: weitere Angaben unter `metadata` statt als eigene Frontmatter-Felder. Claude liest sie nicht, sie dienen der Nachvollziehbarkeit.
+
+```yaml
+license: MIT
+metadata:
+  version: "1.0.0"
+  author: "Name"
+  tags: [stichwort, stichwort]
+  related_skills: [anderer-skill]
+```
+
+`related_skills` verweist nur auf Skills, die es in diesem Repo tatsächlich gibt.
+
 Trag den neuen Skill anschließend in `.claude-plugin/marketplace.json` und in die Skill-Liste der `README.md` ein.
+
+## Abgeleitete Skills
+
+Beruht ein Skill auf fremdem Material, gehört die Herkunft dokumentiert, bevor er aufgenommen wird:
+
+- Upstream-Repository, Datei und vollständiger Commit unter `metadata` (`upstream`, `upstream_commit`, `upstream_homepage`)
+- vollständiger Lizenztext des Ausgangsprojekts unter `licenses/`
+- Eintrag in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) mit Copyright, Lizenz und Commit
+- Eintrag in `skills/catalog.json` und `skills/curation.json`
+- die konkreten Abweichungen in [`docs/UPSTREAM-AENDERUNGEN.md`](docs/UPSTREAM-AENDERUNGEN.md)
+
+Der Maßstab für solche Bearbeitungen steht in [`docs/KURATIERUNGSRICHTLINIE.md`](docs/KURATIERUNGSRICHTLINIE.md). Eine Bearbeitung wird nicht als offizielle Ausgabe des Ausgangsprojekts dargestellt.
 
 ## Vor dem Pull Request
 
