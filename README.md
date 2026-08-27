@@ -16,6 +16,31 @@ Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-gener
 
 → [`skills/vermenschlichen/SKILL.md`](skills/vermenschlichen/SKILL.md)
 
+### zustellbarkeit
+
+Prüft, warum eine E-Mail im Junk landet — und zwar an Aufbau und Inhalt, nicht an SPF,
+DKIM und DMARC. Zwei Anwendungsfälle: einen eigenen Entwurf vor dem Versand durchsehen,
+oder eine empfangene `.eml` auswerten und verstehen, wer sie einsortiert hat und woran.
+Direkt aufrufbar mit `/zustellbarkeit`.
+
+Der Skill bringt ein Prüfskript mit, das die mechanisch entscheidbaren Fälle deterministisch
+findet: sichtbarer Linktext, der eine andere Domain nennt als das Linkziel; ein
+`List-Unsubscribe-Post` ohne den zugehörigen `List-Unsubscribe`-Header, wie ihn RFC 8058
+verlangt; `References`, das auf die eigene Message-ID zeigt; nachgebaute Zitatblöcke ohne
+echten Vorgänger; sichtbare Seriendruckreste im Betreff; versteckte Zählpixel; auseinander
+fallende Absender-, Link- und Bilddomains. Dazu inhaltliche Auslöser wie unbelegte Zahlen,
+Superlative ohne Beleg und Angstrahmen als Einstieg. Bei empfangenen Nachrichten liest es
+zusätzlich das Urteil der Gegenseite aus den Kopfzeilen.
+
+Zwei Grenzen sind fest eingebaut. Der Skill sagt keine Zustellung voraus — Domainalter,
+Versandhistorie und Beschwerdequote stehen nicht im Text, deshalb gibt es auch keine
+Gesamtnote. Und er tarnt nichts: Ein Auslöser wird beseitigt, indem der Mangel beseitigt
+wird. Ist eine Nachricht nur deshalb Spam, weil sie unerwünschte Werbung ist, verweist er
+auf `cold-email` statt am Text zu drehen. Das Skript läuft rein lokal und ruft keine Links
+oder Bilder der geprüften Nachricht ab.
+
+→ [`skills/zustellbarkeit/SKILL.md`](skills/zustellbarkeit/SKILL.md) · [Anleitung](docs/zustellbarkeit-anleitung.md)
+
 ### DACH-Marketing-Suite
 
 Dreizehn deutschsprachige Skills für Marketing, Recherche und Redaktion, zugeschnitten auf Deutschland, Österreich und die Schweiz. Was sie von generischen Marketing-Skills unterscheidet, ist die Arbeitshaltung: Aussagen brauchen Belege mit Quelle und Datum, Schätzungen bleiben als Schätzungen kenntlich, personenbezogene Daten werden minimiert, Deutschland gilt bei deutschem Auftrag als sichtbar gekennzeichnete Annahme (Österreich und Schweiz separat), und externe Aktionen wie Versand, Veröffentlichung, Tracking oder Käufe brauchen eine gesonderte Freigabe. Rechtsverweise sind Prüfpunkte, keine Rechtsberatung.
@@ -74,6 +99,7 @@ Skill-Ordner direkt kopieren, wahlweise persönlich oder pro Projekt:
 ```bash
 git clone https://github.com/LOGIN-TB/claude-skills.git
 cp -r claude-skills/skills/vermenschlichen ~/.claude/skills/
+cp -r claude-skills/skills/zustellbarkeit ~/.claude/skills/
 ```
 
 Alle dreizehn Marketing-Skills auf einmal, ohne `catalog.json` und `curation.json`:
@@ -118,7 +144,8 @@ skills/<skill-name>/SKILL.md      ein Ordner je Skill, Ordnername = Feld "name"
 skills/catalog.json               Herkunft und Art jedes kuratierten Skills
 skills/curation.json              Version, Änderungskategorien und Prüffelder je Skill
 docs/                             Kuratierungsrichtlinie, Terminologie, Quellenregister,
-                                  Abweichungen gegenüber Upstream
+                                  Abweichungen gegenüber Upstream, Anleitungen
+tests/                            Testfälle für mitgelieferte Skripte
 licenses/                         geprüfte Lizenztexte der Ausgangsprojekte
 THIRD_PARTY_NOTICES.md            Herkunft und Lizenzen abgeleiteter Skills
 ```
@@ -134,7 +161,7 @@ description: Was der Skill tut und wann er verwendet werden soll.
 
 ## Herkunft und Kuratierung
 
-`vermenschlichen` ist eine Eigenentwicklung. Die dreizehn Marketing-Skills sind kuratierte deutsche Fassungen eines MIT-lizenzierten Ausgangsprojekts; sie sind weder wörtliche Übersetzungen noch offizielle Ausgaben davon.
+`vermenschlichen` und `zustellbarkeit` sind Eigenentwicklungen. Die dreizehn Marketing-Skills sind kuratierte deutsche Fassungen eines MIT-lizenzierten Ausgangsprojekts; sie sind weder wörtliche Übersetzungen noch offizielle Ausgaben davon.
 
 - [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) — Herkunft, geprüfter Commit, Lizenztexte
 - [docs/KURATIERUNGSRICHTLINIE.md](docs/KURATIERUNGSRICHTLINIE.md) — Maßstab für die Bearbeitungen
