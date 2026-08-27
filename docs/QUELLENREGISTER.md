@@ -29,6 +29,19 @@ Dieses Register nennt autoritative Einstiege. Es ist keine Rechtsberatung und ke
 - **Google-Richtlinien für strukturierte Daten:** <https://developers.google.com/search/docs/appearance/structured-data/sd-policies>
 - **OpenAI-Crawler:** <https://platform.openai.com/docs/bots>
 
+## E-Mail-Format und Zustellbarkeit
+
+- **RFC 5322 – Internet Message Format:** <https://www.rfc-editor.org/rfc/rfc5322.html>
+  - Fassung: Standards Track, Oktober 2008. Geprüft am 27.08.2026.
+  - Arbeitsrelevanz: Aufbau der Kopfzeilen sowie Faltung und Entfaltung. Belegte Passage: Entfalten heißt „simply removing any CRLF that is immediately followed by WSP".
+- **RFC 8058 – Signaling One-Click Functionality for List Email Headers:** <https://www.rfc-editor.org/rfc/rfc8058.html>
+  - Fassung: Standards Track, Januar 2017. Geprüft am 27.08.2026.
+  - Arbeitsrelevanz: Ein-Klick-Abmeldung. Belegte Passage: Ein Absender setzt „one List-Unsubscribe header field and one List-Unsubscribe-Post header field". `List-Unsubscribe-Post` allein ist ein defekter Abmeldeweg.
+- **Microsoft – Anti-spam message headers:** <https://learn.microsoft.com/en-us/defender-office-365/message-headers-eop-mdo>
+  - Fassung: Seitenstand 27.07.2026, zuletzt aktualisiert 12.08.2026. Geprüft am 27.08.2026.
+  - Arbeitsrelevanz: Bedeutung von `X-Forefront-Antispam-Report` und `Authentication-Results`. Belegte Einschränkung: Zu `SCL` heißt es, der Wert bestimme in Cloud-Organisationen nicht, ob eine Nachricht als Spam gilt; stattdessen sind `CAT` und `DIR` heranzuziehen. `SCL` daher nicht als Schwellenwert auslegen.
+  - Offene Auslegungsfrage: Die Seite beschreibt die Kopfzeilen, nicht die Gewichtung einzelner Inhaltsmerkmale. Aussagen darüber, warum eine bestimmte Nachricht eingestuft wurde, bleiben Beobachtung.
+
 Für soziale Netzwerke, Werbeplattformen, E-Mail-Anbieter und generative Medienwerkzeuge ist jeweils die aktuelle offizielle Dokumentation des tatsächlich verwendeten Dienstes maßgeblich. Sekundäre Blogbeiträge oder Anbieterbenchmarks sind keine ausreichende Grundlage für rechtliche Freigaben oder garantierte Ergebnisse.
 
 ## Zitier- und Prüfregel

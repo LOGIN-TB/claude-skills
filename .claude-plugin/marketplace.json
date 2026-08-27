@@ -18,6 +18,15 @@
       ]
     },
     {
+      "name": "zustellbarkeit",
+      "description": "E-Mail-Entwürfe auf Junk-Auslöser in Aufbau und Inhalt prüfen und empfangene Nachrichten auswerten",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/zustellbarkeit"
+      ]
+    },
+    {
       "name": "marketing-dach",
       "description": "Alle 13 deutschen DACH-Marketing-Skills gebündelt: SEO, Content, Copy, Social, Wettbewerb, Kundenforschung, Bilder, Lead-Magneten, Outreach. Entweder dieses Bündel oder einzelne Skills installieren, nicht beides.",
       "source": "./",
