@@ -5,12 +5,12 @@
   },
   "metadata": {
     "description": "Agent Skills von LOGIN zur freien Nutzung",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
       "name": "vermenschlichen",
-      "description": "Schreibregeln für natürliche, sachliche deutsche Texte ohne die typischen Muster KI-generierter Inhalte",
+      "description": "Deutsche Texte natürlich und faktengetreu überarbeiten; Stilprüfung, KI-Erkennung und Herkunftskennzeichen unterscheiden – ohne Nichterkennbarkeitsversprechen",
       "source": "./",
       "strict": false,
       "skills": [

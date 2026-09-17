@@ -1,15 +1,34 @@
 ---
 name: vermenschlichen
-description: "Schreibregeln für natürliche, sachliche deutsche Texte, die typische KI-Verräter vermeiden. Immer anwenden, wenn auf Deutsch geschrieben wird – ob Chat-Antwort, Bericht, Artikel, E-Mail, Zusammenfassung, Dokument oder Social-Media-Post. Auch dann nutzen, wenn nicht ausdrücklich nach Stil oder Schreibregeln gefragt wird, und immer dann, wenn jemand einen Text vermenschlichen, entkünsteln oder weniger nach KI klingen lassen will. Ziel ist, dass kein deutscher Text die Muster aufweist, an denen man KI-generierte Inhalte erkennt (aufgeblähte Bedeutung, Werbesprache, Floskeln, Gedankenstrich-Häufung, Überstrukturierung, Fazit- und Herausforderungen-Abschnitte, erfundene Belege, technische Artefakte, Dialogreste). Grundlage sind die Wikipedia-Seiten Anzeichen für KI-generierte Inhalte (deutsch) und Signs of AI writing (englisch)."
+description: "Deutsche Texte natürlich, sachlich und leserorientiert schreiben oder überarbeiten. Nutze den Skill für Artikel, E-Mails, Berichte und Social-Media-Texte sowie zum Vermenschlichen vorhandener Entwürfe. Erhält Fakten und persönliche Stimme, reduziert schematische Sprachmuster und unterscheidet Stilprüfung, KI-Detektoren, Textwasserzeichen und C2PA-Herkunftskennzeichen. Keine Garantie für Nichterkennbarkeit oder Wasserzeichenfreiheit."
+version: 1.1.0
 ---
 
 # Vermenschlichen: deutscher Schreibstil ohne KI-Muster
 
-Diese Regeln sorgen dafür, dass deutsche Texte natürlich, sachlich und vertrauenswürdig wirken – und nicht die Merkmale zeigen, an denen Leser (und Wikipedia) KI-generierte Inhalte erkennen. Der Leitgedanke der deutschen Wikipedia gilt als Maßstab: nüchtern, zurückhaltend, belegt.
+Diese Regeln helfen, deutsche Texte natürlich, sachlich und leserorientiert zu schreiben. Sie verbessern die Prosa, ohne Fakten oder die Aussageabsicht zu verändern. Zielmedium, konkrete Nutzeranweisung, Fachkonventionen und Barrierefreiheit haben Vorrang vor allgemeinen Stilheuristiken.
 
 Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (deutsch) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (englisch). Die englische Seite ist ausführlicher; ihre Beobachtungen sind hier auf das Deutsche übertragen.
 
-Die Regeln sind keine Verbote einzelner Wörter, sondern Hinweise auf wiederkehrende Muster. Jedes Muster hat einen Grund. Wer den Grund versteht, kann im Zweifel selbst entscheiden. Kein einzelnes Merkmal beweist maschinelle Herkunft – verdächtig ist die Häufung. Umgekehrt gilt: Ein Text wird nicht dadurch gut, dass er alle Verräter vermeidet; er braucht auch Substanz (konkrete Fakten, echte Beispiele, prüfbare Quellen).
+Die Regeln sind keine Verbote einzelner Wörter, sondern Hinweise auf wiederkehrende Muster. Jedes Muster hat einen Grund. Wer den Grund versteht, kann im Zweifel selbst entscheiden. Weder ein einzelnes Merkmal noch eine Häufung beweist maschinelle Herkunft. Umgekehrt gilt: Ein Text wird nicht dadurch gut, dass er alle Verräter vermeidet; er braucht auch Substanz (konkrete Fakten, echte Beispiele, prüfbare Quellen).
+
+## Natürlichkeit, KI-Erkennung und Herkunft
+
+Unterscheide drei Ebenen: sprachliche Auffälligkeiten, statistische Einschätzungen eines KI-Detektors und technische Herkunftskennzeichen. Eine Stilprüfung ist kein Herkunftstest; auch eine Häufung sprachlicher Muster beweist keine maschinelle Urheberschaft.
+
+- Überarbeite für Leser, nicht für einen Detektorwert. Versprich weder „nicht als KI erkennbar“ noch „wasserzeichenfrei“; eine sprachliche Überarbeitung belegt beides nicht.
+- Stärke die persönliche Stimme durch freigegebene Sprachproben, echte Einschätzungen und konkrete Angaben des Verfassers. Erfinde keine Erlebnisse und baue keine Fehler ein, um menschliche Urheberschaft vorzutäuschen.
+- Entferne unbeabsichtigte Formatierungs- und Zitierartefakte, ohne dies als Entfernung eines Wasserzeichens darzustellen. Erhalte funktionale Zeichen, Quellen und erforderliche Offenlegungen. Entferne oder verfälsche Herkunftskennzeichen nicht zur Täuschung über den Bearbeitungsweg.
+- Behandle eine Kennzeichnung für KI-Bearbeitung nicht als Beweis vollständig maschineller Urheberschaft. Auch Korrekturlesen, Übersetzen oder Formatkonvertieren kann gekennzeichnete Ausgaben erzeugen. Ein fehlendes Kennzeichen beweist umgekehrt keine menschliche Herkunft.
+- Prüfe bei konkreten Fragen zu Kennzeichnungen die aktuelle Dokumentation des Anbieters. Übertrage Aussagen über Claude nicht ungeprüft auf andere Modelle oder Produkte. Leite aus Anbieterpflichten keine pauschale Kennzeichnungspflicht für jeden Beitrag ab; maßgebliche Pflichten sind gesondert zu prüfen.
+
+### Einordnung der Claude-Kennzeichnung
+
+Laut [Anthropics Dokumentation](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content) (geprüft am 17. September 2026) verwendet Claude zwei Verfahren: eingebettete Textwasserzeichen bei unterstützten Modellen und signierte Content Credentials (C2PA) bei unterstützten Dateien. Die Textkennzeichnung erfolgt auf Modellebene, betrifft auch API und Claude Code und kann Kopieren sowie manche Bearbeitungen überstehen. C2PA beschreibt die Herkunft beziehungsweise Verarbeitung einer Datei, nicht automatisch die Urheberschaft sämtlicher Inhalte.
+
+Die Dokumentation legt die technische Umsetzung des Textwasserzeichens nicht offen. Behaupte daher nicht, es bestehe aus bestimmten Wörtern oder unsichtbaren Unicode-Zeichen. Versprich nicht, dass Umformulieren, Klartext-Export oder ein Skill es zuverlässig entfernt. Modellabdeckung und Erkennungszugang können sich ändern; vor konkreten Aussagen erneut prüfen.
+
+Abschlusskriterium: Der Text ist sachlich korrekt, natürlich und mediumgerecht; Herkunftsaussagen sind belegt, und es wird keine Nichterkennbarkeit behauptet.
 
 ## Grundhaltung
 
@@ -139,5 +158,7 @@ Prüfe den Text vor der Ausgabe kurz gegen diese Fragen:
 - Ist zu viel fett, zu viel gegliedert, zu viel Liste?
 - Stecken technische Artefakte im Text (Markdown-Reste, Chatbot-Zitierreste, gemischte Anführungszeichen)?
 - Steckt ein Dialog- oder Meta-Rest im Text?
+- Wird unbelegt behauptet, der Text sei nicht als KI erkennbar oder frei von Wasserzeichen?
+- Wird ein Herkunftskennzeichen mit einem Beweis vollständiger KI-Urheberschaft verwechselt?
 
 Wenn eine Antwort „ja" (bzw. bei der ersten Frage „nein") lautet: überarbeiten. Aber überarbeite gezielt – nicht jeder förmliche Satz und nicht jedes „vielleicht" ist ein Fehler, siehe „Was kein Verräter ist".

@@ -6,13 +6,15 @@ Agent Skills zur freien Nutzung. Ein Skill ist eine Markdown-Datei mit Anweisung
 
 ### vermenschlichen
 
-Schreibregeln für deutsche Texte, die nicht nach KI klingen. Der Skill greift bei allem, was auf Deutsch geschrieben wird: Chat-Antworten, Berichte, Artikel, E-Mails, Zusammenfassungen, Social-Media-Posts. Direkt aufrufen kannst du ihn mit `/vermenschlichen`, etwa um einen vorhandenen Text zu überarbeiten.
+Schreibregeln für natürliche, sachliche deutsche Texte: Artikel, E-Mails, Berichte und Social-Media-Posts. Direkt aufrufbar mit `/vermenschlichen`, um vorhandene Entwürfe zu überarbeiten. Fakten, Aussageabsicht und persönliche Stimme bleiben erhalten; Medium und Auftrag haben Vorrang vor pauschalen Stilregeln.
 
-Er unterbindet die Muster, an denen sich maschinell erzeugte Texte erkennen lassen: aufgeblähte Bedeutungszuschreibung, Werbesprache, vage Autoritäten („Studien zeigen"), gehäufte Gedankenstriche, mechanische Verbindungswörter, das Schema „nicht nur …, sondern auch", ausweichende Verben statt „ist/hat", erzwungene Synonym-Rotation, Fazit- und Herausforderungen-Bausteine, Inline-Header-Listen mit fetten Schlagwörtern, Chatbot-Zitierreste und Meta-Sätze über den eigenen Entwurf. Am Ende steht ein Selbstcheck, den Claude vor der Ausgabe durchgeht.
+Er reduziert schematische Sprachmuster, wenn sie den Text verschlechtern: aufgeblähte Bedeutungszuschreibung, Werbesprache, vage Autoritäten („Studien zeigen"), gehäufte Gedankenstriche, mechanische Verbindungswörter, das Schema „nicht nur …, sondern auch", ausweichende Verben statt „ist/hat", erzwungene Synonym-Rotation, Fazit- und Herausforderungen-Bausteine, Inline-Header-Listen mit fetten Schlagwörtern, Chatbot-Zitierreste und Meta-Sätze über den eigenen Entwurf. Am Ende steht ein Selbstcheck, den Claude vor der Ausgabe durchgeht.
 
 Dazu kommt, was oft übersehen wird: ein Abschnitt darüber, welche Merkmale gerade *kein* Hinweis auf KI sind (fehlerfreie Grammatik, förmlicher Ton, ein einzelnes Verbindungswort). Er verhindert, dass Texte beim Überarbeiten künstlich verschlechtert werden.
 
 Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (deutsch) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (englisch).
+
+Neu in Version 1.1.0: Der Skill unterscheidet sprachliche Auffälligkeiten, KI-Detektoren und technische Herkunftskennzeichen. Er erläutert die Grenzen von Claudes Textwasserzeichen und C2PA anhand der [Anthropic-Dokumentation](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content). Natürlichere Sprache ist kein Nachweis menschlicher Urheberschaft; Nichterkennbarkeit oder Wasserzeichenfreiheit werden nicht versprochen.
 
 → [`skills/vermenschlichen/SKILL.md`](skills/vermenschlichen/SKILL.md)
 
