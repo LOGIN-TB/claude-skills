@@ -43,6 +43,23 @@ oder Bilder der geprüften Nachricht ab.
 
 → [`skills/zustellbarkeit/SKILL.md`](skills/zustellbarkeit/SKILL.md) · [Anleitung](docs/zustellbarkeit-anleitung.md)
 
+### Apple HIG (`apple-hig`)
+
+Entwickelt und prüft Anwendungen nach Apples **Human Interface Guidelines**: plattformgerechte Navigation, Komponenten, adaptive Layouts, Typografie, Farben, Materialien/Liquid Glass, Accessibility und Eingaben. Für neue native Apple-Apps, UI-Redesigns, UX-Audits und ausdrücklich HIG-inspirierte Web/PWA-Oberflächen.
+
+Der Skill übersetzt Empfehlungen in konkrete Implementierungs- und Abnahmekriterien. Er verlangt funktionierende Hauptabläufe, relevante Lade-/Leer-/Fehlerzustände und reale Prüfbelege statt bloßer „Apple-Optik“. Ein reiner Auditauftrag bleibt lesend. Apple-Empfehlungen, eigene Engineering-Ableitungen und Produktentscheidungen sind getrennt; spezielle Technologien werden nur bei tatsächlichem Bedarf eingebaut.
+
+Grundlage ist eine Auswertung von **173 navigationsverlinkten HIG-Seiten** (Stand 29. Oktober 2026), darunter 64 Komponenten. Mitgeliefert werden Fachreferenzen, ein Quelleninventar, Agentenauftrag, Plan-/Auditvorlagen und ein lokal ausführbarer Python-Validator. Dieser prüft ausschließlich Auditstruktur und Status, nicht die tatsächliche Anwendung. Keine Apple-Zertifizierung oder App-Store-Freigabezusage; visuelle Medien und externe API-Dokumentationen wurden nicht vollständig untersucht.
+
+```text
+/plugin install apple-hig@login-skills
+/apple-hig:apple-hig Prüfe unsere Anwendung anhand der Apple HIG und dokumentiere Befunde mit Quellen und Prüfbelegen.
+```
+
+Bei manueller Installation lautet der Aufruf `/apple-hig`. Bestehenden Marketplace bei Bedarf zuerst mit `/plugin marketplace update login-skills` aktualisieren.
+
+→ [Skill](skills/apple-hig/SKILL.md) · [Überblick](skills/apple-hig/README.md) · [Installation, Beispiele und Audit-Anleitung](docs/apple-hig-anleitung.md) · [Prüfbericht](docs/apple-hig-pruefbericht.md)
+
 ### DACH-Marketing-Suite
 
 Dreizehn deutschsprachige Skills für Marketing, Recherche und Redaktion, zugeschnitten auf Deutschland, Österreich und die Schweiz. Was sie von generischen Marketing-Skills unterscheidet, ist die Arbeitshaltung: Aussagen brauchen Belege mit Quelle und Datum, Schätzungen bleiben als Schätzungen kenntlich, personenbezogene Daten werden minimiert, Deutschland gilt bei deutschem Auftrag als sichtbar gekennzeichnete Annahme (Österreich und Schweiz separat), und externe Aktionen wie Versand, Veröffentlichung, Tracking oder Käufe brauchen eine gesonderte Freigabe. Rechtsverweise sind Prüfpunkte, keine Rechtsberatung.
@@ -163,7 +180,7 @@ description: Was der Skill tut und wann er verwendet werden soll.
 
 ## Herkunft und Kuratierung
 
-`vermenschlichen` und `zustellbarkeit` sind Eigenentwicklungen. Die dreizehn Marketing-Skills sind kuratierte deutsche Fassungen eines MIT-lizenzierten Ausgangsprojekts; sie sind weder wörtliche Übersetzungen noch offizielle Ausgaben davon.
+`vermenschlichen`, `zustellbarkeit` und `apple-hig` sind Eigenentwicklungen. Apple HIG nutzt Apples Dokumentation als fachliche Quelle; die Apple-Originalmaterialien sind nicht MIT-lizenziert durch dieses Repository. Die dreizehn Marketing-Skills sind kuratierte deutsche Fassungen eines MIT-lizenzierten Ausgangsprojekts; sie sind weder wörtliche Übersetzungen noch offizielle Ausgaben davon.
 
 - [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) — Herkunft, geprüfter Commit, Lizenztexte
 - [docs/KURATIERUNGSRICHTLINIE.md](docs/KURATIERUNGSRICHTLINIE.md) — Maßstab für die Bearbeitungen

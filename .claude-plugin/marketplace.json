@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Agent Skills von LOGIN zur freien Nutzung",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   "plugins": [
     {
@@ -24,6 +24,15 @@
       "strict": false,
       "skills": [
         "./skills/zustellbarkeit"
+      ]
+    },
+    {
+      "name": "apple-hig",
+      "description": "Apple HIG: Apps plattformgerecht entwickeln und prüfen – Navigation, Komponenten, Accessibility und belegte Abnahmekriterien",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/apple-hig"
       ]
     },
     {

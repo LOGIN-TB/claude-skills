@@ -1,0 +1,25 @@
+{
+  "project": "REPLACE_PROJECT_NAME",
+  "scope": "REPLACE_PLATFORM_OS_FRAMEWORK_AND_MAIN_JOURNEY",
+  "expected_ids": ["HIG-CORE-001", "HIG-A11Y-001"],
+  "criteria": [
+    {
+      "id": "HIG-CORE-001",
+      "requirement": "Hauptaufgabe einschließlich Fehler- und Abbruchpfad bedienbar",
+      "origin": "engineering",
+      "source_ids": [38, 40, 64, 105],
+      "status": "not_tested",
+      "evidence": [],
+      "reason": "Vorlage: durch projektspezifische Kriterien aus dem Plan ersetzen"
+    },
+    {
+      "id": "HIG-A11Y-001",
+      "requirement": "Hauptaufgabe mit relevanter assistiver Technologie bedienbar",
+      "origin": "hig",
+      "source_ids": [8, 106],
+      "status": "not_tested",
+      "evidence": [],
+      "reason": "VoiceOver-/Screenreader-Test noch nicht durchgeführt"
+    }
+  ]
+}
