@@ -1,0 +1,19 @@
+name: Python tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, resolved at publication
+      - name: Run repository tests
+        run: python3 -m unittest discover -s tests -v

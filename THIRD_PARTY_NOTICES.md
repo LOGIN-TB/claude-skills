@@ -31,6 +31,18 @@ Die hier veröffentlichten Fassungen ergänzen insbesondere eine vollständige d
 
 Dieselben 13 kuratierten Fassungen werden auch in [`LOGIN-TB/hermes-toolbox`](https://github.com/LOGIN-TB/hermes-toolbox) veröffentlicht, dort in einer auf Hermes Agent zugeschnittenen Variante. Beide Repositorys gehören LOGIN-TB; die Fassungen hier sind an das SKILL.md-Format für Claude angepasst.
 
+## Apple Human Interface Guidelines: fachliche Recherchequellen
+
+`apple-hig` ist ein eigenständig erstellter LOGIN-Skill mit Agentenanweisungen, kurzen deutschen Paraphrasen und eigenen Engineering-Testverfahren. Er ist kein importiertes oder MIT-lizenziertes Apple-Skill-Paket. Grundlage sind die [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines), recherchiert am 29. Oktober 2026.
+
+- Quelleninventar: [`skills/apple-hig/references/source-map.md`](skills/apple-hig/references/source-map.md).
+- Methode und Grenzen: [`skills/apple-hig/references/research-scope.md`](skills/apple-hig/references/research-scope.md).
+- Apple-Originaltexte, Marken, Schriften, SF Symbols, Bilder, Videos und Designressourcen sind **nicht** von der MIT-Lizenz dieses Repositories erfasst. Diese verbleiben bei ihren jeweiligen Rechteinhabern; das Paket enthält keine Apple-Assets oder vollständigen Originalartikel.
+- Apple-Empfehlungen werden von eigenen Engineering-Ableitungen getrennt. Die Links dienen der Nachprüfung, nicht als Zusage von Nutzungsrechten.
+- Keine offizielle Apple-Ausgabe, Verbindung zu Apple, Zertifizierung oder App-Store-Zulassungszusage.
+
+Da kein fremdes Skill-Repository übernommen wurde, sind ein Upstream-Skill-Commit und ein übernommener Drittanbieter-Lizenztext hier nicht anwendbar. `catalog.json` und `curation.json` dokumentieren weiterhin die separat übernommenen Marketing-Skills; die eigene Recherche ist im Quelleninventar des Apple-HIG-Skills dokumentiert.
+
 ## Lizenz
 
 Soweit nicht anders angegeben, stehen die Bearbeitungen in diesem Repository unter der MIT-Lizenz in [`LICENSE`](LICENSE). Die ursprünglichen Copyright- und Lizenzhinweise bleiben durch dieses Dokument und die Angaben in den jeweiligen `SKILL.md`-Dateien erhalten.
