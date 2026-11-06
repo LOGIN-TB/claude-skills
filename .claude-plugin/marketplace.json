@@ -5,12 +5,12 @@
   },
   "metadata": {
     "description": "Agent Skills von LOGIN zur freien Nutzung",
-    "version": "2.2.0"
+    "version": "2.3.0"
   },
   "plugins": [
     {
       "name": "vermenschlichen",
-      "description": "Deutsche Texte natürlich und faktengetreu überarbeiten; Stilprüfung, KI-Erkennung und Herkunftskennzeichen unterscheiden – ohne Nichterkennbarkeitsversprechen",
+      "description": "Deutsche Texte natürlich und faktengetreu überarbeiten, mit Überarbeitungsablauf und Musterkatalog; Stilprüfung, KI-Erkennung und Herkunftskennzeichen unterscheiden, ohne Nichterkennbarkeitsversprechen",
       "source": "./",
       "strict": false,
       "skills": [
