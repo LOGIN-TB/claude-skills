@@ -2,7 +2,7 @@
 
 Geprüft am 6. November 2026. Grundlage sind die Wikipedia-Seiten [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (Stand 29. Oktober 2026) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) mit den Unterseiten `/Style` und `/Markup` (Stand 4. November 2026) sowie die Studien im Quellenverzeichnis unten.
 
-Der Katalog ist beschreibend. Er sammelt, was in KI-Texten gehäuft auftritt, und ist keine Verbotsliste. Ein Treffer ist ein Anlass, den Satz zu prüfen, kein Beweis. Die Merkmale ändern sich mit jeder Modellgeneration; den Katalog daher etwa vierteljährlich mit den Quellen abgleichen und das Prüfdatum anpassen.
+Der Katalog ist beschreibend. Er sammelt, was in KI-Texten gehäuft auftritt, und ist keine Verbotsliste. Ein Treffer heißt nur: Satz noch einmal ansehen. Die Merkmale ändern sich mit jeder Modellgeneration; den Katalog daher etwa vierteljährlich mit den Quellen abgleichen und das Prüfdatum anpassen.
 
 ## Deutsche Wendungen nach Funktion
 
@@ -30,6 +30,19 @@ Laut englischer Wikipedia lösen sich die Formen ab. Die jüngste ist für Claud
 | 2023 bis 2024 | „as of my last knowledge update“ | „Stand meines letzten Updates“, „bis zu meinem Wissensstand“ |
 | 2024 bis 2025 | „not widely documented“, „limited in the provided search results“, dann Spekulation mit „likely“; „maintains a low profile“ | „nicht umfassend dokumentiert“, „obwohl spezifische Details rar sind“, „basierend auf verfügbaren Informationen“, dann „dürfte wahrscheinlich“; „hält sich bedeckt“ |
 | seit Mitte 2026 | „should be treated as … rather than …“, „does not (by itself) establish …“, „should not be confused with …“ | „ist als … zu verstehen, nicht als …“, „belegt für sich genommen nicht, dass …“, „ist nicht zu verwechseln mit …“ |
+
+## Beweis- und Statusvokabular
+
+Diese Gruppe steht nicht auf den Wikipedia-Seiten. Sie stammt aus einer eigenen Auswertung von 322 Claude-Code- und Cowork-Sitzungen (Juli bis November 2026, rund 5,7 Mio. Zeichen deutscher Assistententext) und aus Rückmeldungen zu claude.ai-Chats. Die Häufigkeit blieb über die Monate etwa gleich.
+
+| Form | Beispiele | Treffer in der Auswertung |
+|---|---|---|
+| Beweiswert als Urteil | „ist kein Beweis dafür, dass …“, „liefert noch keinen Beweis“, „Redaktionshistorie, kein Nachweis“ | selten (3), in Chats nach Rückmeldung häufiger |
+| Etikett für den eigenen Satz | „Das ist eine Behauptung, die noch nicht überprüft wurde“, „Das ist eine Annahme, kein Messwert“, „… ist eine Behauptung“ | selten (5) |
+| „Beweis“ als Ankündigung | „Der Beweis:“, „Jetzt der Beweis, dass …“, „Definitiver Beweis per …“, „beweist also nicht, dass …“ | 72 in 25 Sitzungen |
+| Status-Rubriken | „Verifiziert:“, „Nicht verifiziert:“, „Nicht belegt:“, „Was ich belegen konnte, und was nicht“, „Nicht geprüft habe ich …“ | rund 140 in 52 Sitzungen |
+
+Umschreiben heißt hier nicht, Ungeprüftes zu verschweigen. Sag in Alltagssprache, was getan wurde, was offen ist und wie man es klären kann. Beispiele stehen in SKILL.md unter „Sprache und Ton“.
 
 ## Dialog-, Brief- und Meta-Reste
 
