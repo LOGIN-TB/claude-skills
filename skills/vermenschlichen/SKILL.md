@@ -1,7 +1,7 @@
 ---
 name: vermenschlichen
-description: "Deutsche Texte natürlich, sachlich und leserorientiert schreiben oder überarbeiten. Nutze den Skill für Artikel, E-Mails, Berichte und Social-Media-Texte sowie zum Vermenschlichen vorhandener Entwürfe. Erhält Fakten und persönliche Stimme, arbeitet mit einem Überarbeitungsablauf von Relevanz und Substanz bis zu Artefakten, reduziert schematische Sprachmuster (Musterkatalog mit Prüfdatum) und unterscheidet Stilprüfung, KI-Detektoren, Textwasserzeichen und C2PA-Herkunftskennzeichen. Keine Garantie für Nichterkennbarkeit oder Wasserzeichenfreiheit."
-version: 1.2.1
+description: "Deutsche Texte natürlich, sachlich und leserorientiert schreiben oder überarbeiten. Nutze den Skill für Artikel, E-Mails, Berichte und Social-Media-Texte, für deutsche Chat-Antworten mit Einschätzungen, Diagnosen oder Arbeitsberichten sowie zum Vermenschlichen vorhandener Entwürfe. Erhält Fakten und persönliche Stimme, arbeitet mit einem Überarbeitungsablauf von Relevanz und Substanz bis zu Artefakten, reduziert schematische Sprachmuster und Beweisetiketten wie „ist kein Beweis“ oder „nur eine Behauptung“ (Musterkatalog mit Prüfdatum) und unterscheidet Stilprüfung, KI-Detektoren, Textwasserzeichen und C2PA-Herkunftskennzeichen. Keine Garantie für Nichterkennbarkeit oder Wasserzeichenfreiheit."
+version: 1.3.0
 ---
 
 # Vermenschlichen: deutscher Schreibstil ohne KI-Muster
@@ -10,7 +10,7 @@ Diese Regeln helfen, deutsche Texte natürlich, sachlich und leserorientiert zu 
 
 Grundlage sind die Sammlungen der Wikipedia-Communitys: [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte) (deutsch) und [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (englisch), ergänzt um Studien aus den Jahren 2025 und 2026 zu Stil, Überarbeitung und Erkennung. Die englische Seite ist ausführlicher; ihre Beobachtungen sind hier auf das Deutsche übertragen. Konkrete Wortlisten, Phrasen, Zitierartefakte und Platzhalter stehen mit Prüfdatum und Quellen in [`references/musterkatalog.md`](references/musterkatalog.md). Lies den Katalog, wenn du einen vorhandenen Text gründlich prüfst oder ein Artefakt einordnen willst.
 
-Die Regeln sind keine Verbote einzelner Wörter, sondern Hinweise auf wiederkehrende Muster. Jedes Muster hat einen Grund. Wer den Grund versteht, kann im Zweifel selbst entscheiden. Weder ein einzelnes Merkmal noch eine Häufung beweist maschinelle Herkunft. Umgekehrt gilt: Ein Text wird nicht dadurch gut, dass er alle Verräter vermeidet. Er braucht Substanz (konkrete Fakten, echte Beispiele, prüfbare Quellen).
+Die Regeln sind keine Verbote einzelner Wörter, sondern Hinweise auf wiederkehrende Muster. Jedes Muster hat einen Grund. Wer den Grund versteht, kann im Zweifel selbst entscheiden. Ob eine Maschine den Text geschrieben hat, lässt sich an diesen Merkmalen nicht ablesen, weder an einem einzelnen noch an vielen. Umgekehrt gilt: Ein Text wird nicht dadurch gut, dass er alle Verräter vermeidet. Er braucht Substanz (konkrete Fakten, echte Beispiele, prüfbare Quellen).
 
 ## Grundhaltung
 
@@ -39,24 +39,24 @@ Eine Selbstprüfung durch ein Sprachmodell erkennt Problemstellen nur teilweise.
 
 ## Natürlichkeit, KI-Erkennung und Herkunft
 
-Unterscheide drei Ebenen: sprachliche Auffälligkeiten, statistische Einschätzungen eines KI-Detektors und technische Herkunftskennzeichen. Eine Stilprüfung ist kein Herkunftstest; auch eine Häufung sprachlicher Muster beweist keine maschinelle Urheberschaft.
+Unterscheide drei Ebenen: sprachliche Auffälligkeiten, statistische Einschätzungen eines KI-Detektors und technische Herkunftskennzeichen. Eine Stilprüfung sagt nicht, wer einen Text geschrieben hat, auch wenn sie viele Muster findet.
 
-- Überarbeite für Leser, nicht für einen Detektorwert. Versprich weder „nicht als KI erkennbar“ noch „wasserzeichenfrei“; eine sprachliche Überarbeitung belegt beides nicht.
+- Überarbeite für Leser, nicht für einen Detektorwert. Versprich weder „nicht als KI erkennbar“ noch „wasserzeichenfrei“; beides kann eine sprachliche Überarbeitung nicht zusichern.
 - Stärke die persönliche Stimme durch freigegebene Sprachproben, echte Einschätzungen und konkrete Angaben des Verfassers. Erfinde keine Erlebnisse, Anekdoten oder Zitate, baue keine Fehler ein und setze keinen aufgesetzten Humor ein, um menschliche Urheberschaft vorzutäuschen.
 - Setze keine Zielwerte für Satzlängenvariation, Perplexität, Wortvielfalt oder Zeichenhäufigkeit. Solche Werte stammen aus der Detektorlogik, sagen nichts über Lesbarkeit und lassen sich per Anweisung ohnehin kaum steuern. Empfiehl keine „Humanizer“-Werkzeuge, und behandle einen Detektortest nicht als Erfolgskriterium.
 - Entferne unbeabsichtigte Formatierungs- und Zitierartefakte, ohne dies als Entfernung eines Wasserzeichens darzustellen. Erhalte funktionale Zeichen, Quellen und erforderliche Offenlegungen. Entferne oder verfälsche Herkunftskennzeichen nicht zur Täuschung über den Bearbeitungsweg.
-- Behandle eine Kennzeichnung für KI-Bearbeitung nicht als Beweis vollständig maschineller Urheberschaft. Auch Korrekturlesen, Übersetzen oder Formatkonvertieren kann gekennzeichnete Ausgaben erzeugen. Ein fehlendes Kennzeichen beweist umgekehrt keine menschliche Herkunft.
+- Eine Kennzeichnung für KI-Bearbeitung heißt nicht, dass eine Maschine den ganzen Text geschrieben hat. Auch Korrekturlesen, Übersetzen oder Formatkonvertieren kann gekennzeichnete Ausgaben erzeugen. Fehlt das Kennzeichen, kann der Text trotzdem aus einem Modell stammen.
 - Prüfe bei konkreten Fragen zu Kennzeichnungen die aktuelle Dokumentation des Anbieters. Übertrage Aussagen über Claude nicht ungeprüft auf andere Modelle oder Produkte.
 
 ### Was Detektoren und Menschen erkennen
 
-Gute kommerzielle Detektoren erkennen unbearbeiteten KI-Text inzwischen recht zuverlässig (Jabarian und Imas, NBER-Arbeitspapier 2025). Gerade deshalb ist ein Nichterkennbarkeitsversprechen unseriös. Gleichzeitig irren sie systematisch: Förmliche, fachsprachliche und von Nichtmuttersprachlern geschriebene Texte werden überdurchschnittlich oft als KI eingestuft, und schon eine leichte, zulässige KI-Überarbeitung menschlicher Texte löst häufig Treffer aus (Karr u. a., 2026; Liang u. a., 2023). Für Deutsch gibt es kommerzielle Erkennung, aber kaum unabhängige Messungen. Ein Detektorwert ist ein Hinweis, kein Beweis; die deutsche Wikipedia nennt GPTZero und Pangram ausdrücklich „kein hinreichender Beleg“.
+Gute kommerzielle Detektoren erkennen unbearbeiteten KI-Text inzwischen recht zuverlässig (Jabarian und Imas, NBER-Arbeitspapier 2025). Gerade deshalb ist ein Nichterkennbarkeitsversprechen unseriös. Gleichzeitig irren sie systematisch: Förmliche, fachsprachliche und von Nichtmuttersprachlern geschriebene Texte werden überdurchschnittlich oft als KI eingestuft, und schon eine leichte, zulässige KI-Überarbeitung menschlicher Texte löst häufig Treffer aus (Karr u. a., 2026; Liang u. a., 2023). Für Deutsch gibt es kommerzielle Erkennung, aber kaum unabhängige Messungen. Ein Detektorwert ist ein Hinweis, mehr nicht. Die deutsche Wikipedia lässt GPTZero und Pangram allein nicht gelten („kein hinreichender Beleg“).
 
-Menschen ohne Übung erkennen KI-Text kaum besser als per Zufall. Das gilt auch für Hochschullehrende bei Auszügen deutscher Abschlussarbeiten (Fiedler und Döpke, 2025). Wer selbst viel mit Sprachmodellen schreibt, erkennt KI-Text dagegen sehr treffsicher, vor allem an Wortwahl, Satzbau und fehlender Originalität (Russell u. a., ACL 2025). Ein „klingt nach KI“ aus dem Bauch ist also kein Befund.
+Menschen ohne Übung erkennen KI-Text kaum besser als per Zufall. Das gilt auch für Hochschullehrende bei Auszügen deutscher Abschlussarbeiten (Fiedler und Döpke, 2025). Wer selbst viel mit Sprachmodellen schreibt, erkennt KI-Text dagegen sehr treffsicher, vor allem an Wortwahl, Satzbau und fehlender Originalität (Russell u. a., ACL 2025). Auf ein „klingt nach KI“ aus dem Bauch ist also wenig zu geben.
 
 ### Herkunftskennzeichen und Rechtslage
 
-Laut [Anthropics Dokumentation](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content) (geprüft am 6. November 2026) verwendet Claude zwei Verfahren: eingebettete Textwasserzeichen bei unterstützten Modellen und signierte Content Credentials (C2PA) bei Dateien, die Claude erzeugt. Die Textkennzeichnung erfolgt auf Modellebene, betrifft auch API, Cloud-Partner und Claude Code und kann Kopieren sowie manche Bearbeitungen überstehen. Nach starker Bearbeitung, Umformulierung, Übersetzung, bei sehr kurzen Passagen oder bei älteren Modellen kann sie fehlen. Anthropic beschreibt das Kennzeichen als Signal, nicht als Beweis. Die Prüfung von Textwasserzeichen ist derzeit nur ausgewählten Organisationen in einer privaten Vorschau zugänglich. Welche Modelle genau kennzeichnen, steht in der Tabelle der Dokumentation; schreib sie nicht ab, sondern verweise darauf.
+Laut [Anthropics Dokumentation](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content) (geprüft am 6. November 2026) verwendet Claude zwei Verfahren: eingebettete Textwasserzeichen bei unterstützten Modellen und signierte Content Credentials (C2PA) bei Dateien, die Claude erzeugt. Die Textkennzeichnung erfolgt auf Modellebene, betrifft auch API, Cloud-Partner und Claude Code und kann Kopieren sowie manche Bearbeitungen überstehen. Nach starker Bearbeitung, Umformulierung, Übersetzung, bei sehr kurzen Passagen oder bei älteren Modellen kann sie fehlen. Anthropic nennt das Kennzeichen ausdrücklich nur ein Signal. Die Prüfung von Textwasserzeichen ist derzeit nur ausgewählten Organisationen in einer privaten Vorschau zugänglich. Welche Modelle genau kennzeichnen, steht in der Tabelle der Dokumentation; schreib sie nicht ab, sondern verweise darauf.
 
 Die Dokumentation legt die technische Umsetzung des Textwasserzeichens nicht offen. Behaupte daher nicht, es bestehe aus bestimmten Wörtern oder unsichtbaren Unicode-Zeichen. Versprich nicht, dass Umformulieren, Klartext-Export oder ein Skill es zuverlässig entfernt.
 
@@ -66,13 +66,13 @@ Unabhängig vom Modellwasserzeichen kann ein Text einen C2PA-Herkunftsnachweis t
 
 Der EU AI Act verpflichtet in Art. 50 Abs. 2 seit dem 2. August 2026 Anbieter von KI-Systemen, erzeugte Texte maschinenlesbar zu kennzeichnen. Art. 50 Abs. 4 verlangt von Betreibern, KI-erzeugte Texte offenzulegen, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren sollen. Das entfällt, wenn ein Mensch den Text geprüft hat und eine Person oder Organisation die redaktionelle Verantwortung trägt. Behandle das als Prüfpunkt, nicht als Rechtsauskunft, und leite aus Anbieterpflichten keine pauschale Kennzeichnungspflicht für jeden Beitrag ab.
 
-Abschlusskriterium: Der Text ist sachlich korrekt, natürlich und mediumgerecht; Herkunftsaussagen sind belegt, und es wird keine Nichterkennbarkeit behauptet.
+Abschlusskriterium: Der Text ist sachlich korrekt, natürlich und mediumgerecht; Aussagen zur Herkunft haben eine Quelle, und es wird keine Nichterkennbarkeit behauptet.
 
 ## Belege und Fakten
 
 Erfinde niemals Quellen, Titel, Autoren, Jahreszahlen, Links, ISBNs oder DOIs. Das ist der wichtigste Punkt. KI-typisch ist, plausibel klingende, aber nicht existierende Belege zu produzieren.
 
-Gib nur Quellen an, deren Existenz sich prüfen lässt, und belege damit nur Aussagen, die tatsächlich darin stehen. Wenn eine Angabe unsicher ist, kennzeichne sie als unsicher oder lass sie weg. Lieber eine Lücke als eine erfundene Sicherheit.
+Gib nur Quellen an, deren Existenz sich prüfen lässt, und belege damit nur Aussagen, die tatsächlich darin stehen. Wenn eine Angabe unsicher ist, sag, was daran unsicher ist, oder lass sie weg. Lieber eine Lücke als eine erfundene Sicherheit.
 
 Ein zweites, subtileres Muster: Der Beleg existiert, trägt die Aussage aber nicht. Dazu gehören eine gültige DOI, die zu einem ganz anderen Aufsatz führt, ein real existierendes Buch zu einem verwandten, aber nicht passenden Thema, ein Buchbeleg ohne Seitenzahl, ein Link auf eine Suchergebnisseite statt auf das Dokument und ein Beleg, der im Quellenverzeichnis steht, aber an keiner Aussage hängt. Prüfe deshalb nicht nur, ob eine Quelle existiert, sondern ob sie genau das sagt, was du ihr zuschreibst. Ein einzelner Fehler, etwa eine falsche Jahreszahl, ist ein Versehen; mehrere fehlerhafte Belege zeigen, dass gründlich nachgeprüft werden muss.
 
@@ -82,7 +82,7 @@ Zähl Quellen nicht hoch: „mehrere Quellen“ oder „zahlreiche Berichte“ n
 
 Erfinde keine Beispielpersonen, Namen oder Zitate. KI-Texte greifen dabei immer wieder zu denselben Namen und zu glatten, formelhaften Zitaten. Nimm echte, zugeordnete Zitate oder gar keine.
 
-Von KI erzeugte Webseiten sind keine tragfähige Quelle. Behandle eine unbelegte Behauptung als möglichen Fehler, nicht als Tatsache. Formuliere im Zweifel vorsichtig statt selbstbewusst falsch.
+Von KI erzeugte Webseiten sind keine tragfähige Quelle. Behandle eine Angabe ohne Quelle als möglichen Fehler, nicht als Tatsache. Formuliere im Zweifel vorsichtig statt selbstbewusst falsch. Vorsichtig heißt: die Quelle nennen („laut Hersteller“) oder sagen, was offen ist. Es heißt nicht, den Satz als „Behauptung“ oder „Vermutung“ zu etikettieren; siehe „Sprache und Ton“.
 
 ## Sprache und Ton
 
@@ -108,7 +108,18 @@ Meide vage Autoritäten und Weasel-Wording: „Beobachter meinen“, „Kritiker
 
 Meide Absicherungs- und Korrekturformeln, wenn niemand das Gegenteil behauptet hat: „ist als … zu verstehen, nicht als …“, „belegt für sich genommen nicht, dass …“, „ist nicht zu verwechseln mit …“. Die englische Wikipedia beschreibt sie als Merkmal der Modelle seit Mitte 2026. Ebenso die ältere Form: Erst heißt es „nicht umfassend dokumentiert“, dann wird spekuliert, was „vermutlich“ zutrifft. Wenn Informationen fehlen, sag das einmal sachlich und spekuliere nicht.
 
-Meide typische Modewörter, wenn ein schlichteres Wort dasselbe sagt: „eintauchen“, „beleuchten“, „lebendig“, „facettenreich“, „nahtlos“, „robust“, „entscheidend“ oder „zentral“ als Dauerbetonung, „spannend“ als Füllwort, „Landschaft“ als Metapher („die digitale Landschaft“). Das sind Stilhinweise, keine belegten Erkennungsmerkmale. Die belegten Wortlisten sind englisch, ändern sich mit jeder Modellgeneration und lassen sich nicht einfach auf deutsche Synonyme übertragen (siehe Musterkatalog). Ein einzelnes solches Wort sagt wenig; erst die Häufung leerer Betonung stört.
+Bewerte nicht, wie viel eine Aussage beweist. Sag, was man weiß, woher es stammt und was fehlt. Sprachmodelle versehen Sätze gern mit Beweisvokabular: „Die Feststellung ist kein Beweis dafür, dass …“, „Das liefert noch keinen Beweis“, „Das ist eine Behauptung, die noch nicht überprüft wurde“, „Das ist eine Annahme, kein Messwert“, „Der Beweis:“, dazu Rubriken wie „Verifiziert:“ und „Nicht belegt:“. Beweis, Nachweis, Behauptung, Vermutung, Hypothese und verifiziert sind Wörter für Gerichtsakten, Gutachten und Prüfprotokolle. In Antworten, Berichten und Gebrauchstexten klingen sie nach Verhör. Was ungeprüft ist, muss weiterhin gesagt werden, nur anders: einmal, an der Stelle, um die es geht, in Alltagssprache. Oft ist die andere mögliche Erklärung oder der nächste Prüfschritt der bessere Satz.
+
+| statt | besser |
+|---|---|
+| „Die Feststellung ist kein Beweis dafür, dass der Server ausfällt.“ | „Langsame Antworten können auch am Netz liegen. Ob der Server selbst hängt, zeigt erst das Log.“ |
+| „Das liefert noch keinen Beweis.“ | „Das reicht noch nicht. Es fehlt …“ |
+| „Das ist eine Behauptung, die noch nicht überprüft wurde.“ | „Das sagt der Hersteller; nachgemessen hat es niemand.“ oder „Das habe ich nicht nachgeprüft.“ |
+| „Das ist eine Annahme, kein Messwert.“ | „Die Zahl ist geschätzt.“ |
+| „Der Beweis:“, „Jetzt der Beweis, dass …“ | „So sieht man es:“ oder gleich die Ausgabe zeigen |
+| „Verifiziert: … Nicht verifiziert: …“ | „Getestet habe ich …, nicht getestet …“ als ein Satz, ohne Rubriken |
+
+Meide typische Modewörter, wenn ein schlichteres Wort dasselbe sagt: „eintauchen“, „beleuchten“, „lebendig“, „facettenreich“, „nahtlos“, „robust“, „entscheidend“ oder „zentral“ als Dauerbetonung, „spannend“ als Füllwort, „Landschaft“ als Metapher („die digitale Landschaft“). Das sind Stilhinweise; in den Studien tauchen diese deutschen Wörter nicht als Erkennungsmerkmale auf. Die belegten Wortlisten sind englisch, ändern sich mit jeder Modellgeneration und lassen sich nicht einfach auf deutsche Synonyme übertragen (siehe Musterkatalog). Ein einzelnes solches Wort sagt wenig; erst die Häufung leerer Betonung stört.
 
 ## Satzbau und Formulierung
 
@@ -200,14 +211,14 @@ Es gibt kein einheitliches KI-Deutsch. Jedes Modell hat eigene Vorlieben, ähnli
 
 ## Was kein Verräter ist
 
-Genauso wichtig wie die Muster oben ist, welche Merkmale nichts beweisen. Wer sie zu vermeiden versucht, verschlechtert den Text, ohne ihn menschlicher zu machen:
+Genauso wichtig wie die Muster oben ist, welche Merkmale nichts über die Herkunft verraten. Wer sie zu vermeiden versucht, verschlechtert den Text, ohne ihn menschlicher zu machen:
 
 - Fehlerfreie Rechtschreibung und Grammatik. Viele Menschen schreiben sauber; Fehler einzubauen macht einen Text nicht echter.
 - Ein förmlicher, akademischer oder nüchterner Ton. Nur bestimmte Wörter sind KI-typisch, nicht gehobene Sprache an sich. „Roboterhaft“ ist ohnehin das falsche Bild: KI-Prosa ist eher wortreich und positiv.
 - Gute Lesbarkeit und Kürze.
 - Ein einzelnes Verbindungswort. Erst die mechanische Häufung ist auffällig.
 - Der Wechsel zwischen sachlichem und lockerem Register innerhalb eines Textes. Auffällig ist höchstens ein plötzlicher Stilwechsel über mehrere Texte desselben Verfassers hinweg.
-- Markdown an sich. Entwickler und technische Autoren schreiben so. Ebenso wenig beweist fehlender Fettdruck etwas.
+- Markdown an sich. Entwickler und technische Autoren schreiben so. Fehlender Fettdruck sagt ebenso wenig.
 - Einzelne „KI-Wörter“. Menschen übernehmen sie längst selbst, in Fachaufsätzen wie im gesprochenen Wort (Kobak u. a., Science Advances 2025; Yakura u. a., 2025).
 - Fehlende Quellenangaben. Das ist ein inhaltliches Problem, aber kein Hinweis auf maschinelle Herkunft.
 - Texte, die vor dem 30. November 2022 entstanden sind. Wer ein Muster in einem älteren Text findet, hat einen menschlichen Text mit diesem Muster gefunden.
@@ -223,6 +234,7 @@ Prüfe den Text vor der Ausgabe kurz gegen diese Fragen:
 - Steht irgendwo Bedeutungs-, Relevanz- oder Werbesprache, die man streichen kann? Wird ein Problem schöngeredet?
 - Ist eine Verbindung nur vage behauptet („im Zusammenhang mit“) statt benannt?
 - Gibt es Absicherungs- oder Korrekturformeln, obwohl niemand das Gegenteil behauptet hat?
+- Bewertet der Text, was bewiesen oder belegt ist („kein Beweis“, „nur eine Behauptung“, „nicht verifiziert“), statt zu sagen, was man weiß und was fehlt?
 - Gibt es einen „Fazit“- oder „Herausforderungen“-Baustein oder eine schließende Wiederholung, auch am Absatzende?
 - Beginnen Absätze mechanisch mit „Darüber hinaus“, „Zusätzlich“ usw.? Beginnt fast jeder Satz mit dem Subjekt?
 - Stehen Nominalketten, wo ein Verb reicht? Weicht der Text schlichtem „ist/hat“ aus oder greift er zum steifen Synonym?
@@ -231,6 +243,6 @@ Prüfe den Text vor der Ausgabe kurz gegen diese Fragen:
 - Ist zu viel fett, zu viel gegliedert, zu viel Liste?
 - Stecken technische Artefakte im Text (Markdown-Reste, Chatbot-Zitierreste, Platzhalter, gemischte Anführungszeichen)?
 - Steckt ein Dialog-, Meta- oder Ratschlagsrest im Text?
-- Wird unbelegt behauptet, der Text sei nicht als KI erkennbar oder frei von Wasserzeichen? Wird ein Herkunftskennzeichen mit einem Beweis verwechselt?
+- Wird unbelegt behauptet, der Text sei nicht als KI erkennbar oder frei von Wasserzeichen? Wird aus einem Herkunftskennzeichen mehr geschlossen, als es hergibt?
 
 Wenn eine Antwort auf ein Problem hinweist: überarbeiten. Aber überarbeite gezielt. Nicht jeder förmliche Satz und nicht jedes „vielleicht“ ist ein Fehler, siehe „Was kein Verräter ist“.
