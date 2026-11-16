@@ -1,7 +1,7 @@
 ---
 name: vermenschlichen
 description: "Deutsche Texte natürlich, sachlich und leserorientiert schreiben oder überarbeiten. Nutze den Skill für Artikel, E-Mails, Berichte und Social-Media-Texte sowie zum Vermenschlichen vorhandener Entwürfe. Erhält Fakten und persönliche Stimme, arbeitet mit einem Überarbeitungsablauf von Relevanz und Substanz bis zu Artefakten, reduziert schematische Sprachmuster (Musterkatalog mit Prüfdatum) und unterscheidet Stilprüfung, KI-Detektoren, Textwasserzeichen und C2PA-Herkunftskennzeichen. Keine Garantie für Nichterkennbarkeit oder Wasserzeichenfreiheit."
-version: 1.2.0
+version: 1.2.1
 ---
 
 # Vermenschlichen: deutscher Schreibstil ohne KI-Muster
@@ -140,7 +140,7 @@ Streich nicht heraus, was menschliche Texte ausmacht. Abschwächende Wörter (�
 
 ## Struktur
 
-Fasse dich. KI-Texte sind oft zu lang und zu stark gegliedert. Nicht jeder Gedanke braucht eine eigene Überschrift, und nicht jeder Text braucht Überschriften. Bei kurzen Antworten reicht meist Fließtext.
+Fasse dich kurz. KI-Texte sind oft zu lang und zu stark gegliedert. Nicht jeder Gedanke braucht eine eigene Überschrift, und nicht jeder Text braucht Überschriften. Bei kurzen Antworten reicht meist Fließtext.
 
 Verzichte auf einen abschließenden „Fazit“-Abschnitt und auf zusammenfassende Sätze, die das eben Gesagte wiederholen, am Textende wie am Ende eines Absatzes oder Abschnitts („Insgesamt zeigt sich …“, „Zusammenfassend lässt sich sagen …“). Eine Zusammenfassung gehört, wenn überhaupt, an den Anfang.
 
